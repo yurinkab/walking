@@ -1,7 +1,7 @@
-body {font-family: 'Roboto', sans-serif;}
+body {padding:20px; margin:0;font-family: 'Roboto', sans-serif; height:1000px; overflow:hidden;}
 .walking {display:inline; opacity:0.1; position:absolute;top:20px; right:20px;}
-.title:after {background-image:url(http://icons.iconarchive.com/icons/icons8/windows-8/512/Sports-Walking-icon.png)}
-.box {text-align:center; padding:30px; color:white; background:blue; border-right:3px solid white; border-bottom:3px solid white; 
+.title {font-family: 'Lobster', cursive;}
+.box {text-align:center; padding:30px; color:white; background:#1561AD; border-right:3px solid white; border-bottom:3px solid white; 
     animation-name: fade;
     animation-duration: 12s;
   opacity:0.1;
@@ -13,4 +13,7 @@ body {font-family: 'Roboto', sans-serif;}
     60% {opacity:1;}
     100% {opacity:0.1;}
 }
-.time {font-size:18px; color:#FBBC05}
+.time {font-size:25px; color:#FBBC05}
+.check {}
+.tip {width:130px; height:40px; padding:10px; background:#FBBC05; color:white; position:absolute;top:30px; right:100px; transition:all 2s; border-radius:10px;}
+
