@@ -46,7 +46,7 @@ var s = date.getSeconds();
   div.innerHTML = "<b><p class='time'> " + h + ':' + m + ':' + s + "</b></p><h3>Time to Walk! <br>Did you Walk 5 Minutes?</h3><form action='#'><input type='radio' name='walk' value='yes' onclick='minutesUp()'>Yes<br><input type='radio'  name='walk' value='no' >No<br></form>";
 div.className = 'box';
   
-      hoursCount+= 10;
+      hoursCount+= 30;
 
   addH.innerHTML = "You Walked: "+count+" minutes out of "+hoursCount + " Minutes";
    
