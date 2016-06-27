@@ -3,14 +3,14 @@ body {padding:20px; margin:0;font-family: 'Roboto', sans-serif; height:1000px; o
 .title {font-family: 'Lobster', cursive;}
 .box {text-align:center; padding:30px; color:white; background:#1561AD; border-right:3px solid white; border-bottom:3px solid white; 
     animation-name: fade;
-    animation-duration: 12s;
+    animation-duration: 1800s;
   opacity:0.1;
   transition:all 2s;
 }
 @keyframes fade {
     0%   {opacity:0;}
-    20%  {opacity:1;}
-    60% {opacity:1;}
+    2%  {opacity:1;}
+    98% {opacity:1;}
     100% {opacity:0.1;}
 }
 .time {font-size:25px; color:#FBBC05}
