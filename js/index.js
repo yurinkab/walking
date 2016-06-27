@@ -75,7 +75,7 @@ div.className = 'box';
 
 
 checkTime();
-setInterval(checkTime, 10000);
+setInterval(checkTime, 1800000);
 
 
 
